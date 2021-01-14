@@ -2,13 +2,30 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+nav {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #ef5730;
+}
+
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
 }
 
+footer{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EF5730;
+}
 
+h1{
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -16,6 +33,7 @@ body {
 .carousel {
     margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     bottom: 3rem;
